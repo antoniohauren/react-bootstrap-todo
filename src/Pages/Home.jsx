@@ -1,6 +1,12 @@
+import { Container } from "react-bootstrap"
+import { ListTodos } from "../Components/ListTodos"
+
+
 const Home = () => {
   return (
-    <h1>Hello World</h1>
+    <Container>
+      <ListTodos />
+    </Container>
   )
 }
 
